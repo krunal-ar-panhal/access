@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Accessible website following WCAG with responsive design and enhanced features."
+    />
+    <meta
+      name="keywords"
+      content="Accessible Website, WCAG, Responsive Design, Accessibility, ARIA, Web Development"
+    />
+    <meta name="author" content="Your Name or Organization Name" />
+    <meta name="robots" content="index, follow" />
+
+    <title>Accessibility Research Centre</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="public/assets/images/fevi-icon.png" />
+
+    <!-- Stylesheets -->
+    <link href="public/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Magnific Popup CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <!-- FullCalendar CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.2.0/main.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@4.3.0/main.min.css"
+    />
+
+    <link href="public/assets/css/app.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="public/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="public/assets/js/app.js"></script>
+
+    <script src="public/assets/js/calender.js"></script>
+    <!-- jQuery (required for Magnific Popup) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- FullCalendar JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.2.0/main.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@4.2.0/main.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@fullcalendar/interaction@4.2.0/main.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuidv4.min.js"
+    ></script>
+    <script>
+      // Initialize Magnific Popup
+      $(document).ready(function () {
+        // Initialize magnific popup on the element with class '.video-popup'
+        $(".video-popup").magnificPopup({
+          type: "iframe", // Set the type to iframe for embedding video
+          iframe: {
+            patterns: {
+              youtube: {
+                index: "youtube.com", // Match YouTube URL
+                id: "v=", // YouTube video ID parameter
+                src: "https://www.youtube.com/embed/LngANx9dHYM?si=CZPv_2Ga5nTkkOFU", // Embed URL with autoplay
+              },
+            },
+          },
+        });
+      });
+
+      $(document).ready(function () {
+        // Initialize OwlCarousel
+        $(".testimonials").owlCarousel({
+          loop: false,
+          margin: 20,
+          nav: true,
+          dots: true,
+          responsive: {
+            0: { items: 1 },
+            600: { items: 1 },
+            1000: { items: 2 },
+          },
+        });
+
+        // Add accessible names to the dots
+        $(".owl-dot").each(function (index) {
+          $(this).attr("aria-label", `Go to testimonial ${index + 1}`);
+        });
+
+        // Fix accessibility for navigation buttons
+        $(".owl-prev").each(function () {
+          $(this).removeAttr("role").attr("aria-label", "Previous");
+        });
+
+        $(".owl-next").each(function () {
+          $(this).removeAttr("role").attr("aria-label", "Next");
+        });
+      });
+
+      function updateFeatured(element) {
+        // Get the data from the clicked sidebar item
+        const imgSrc = element.getAttribute("data-img");
+        const title = element.getAttribute("data-title");
+        const date = element.getAttribute("data-date");
+        const content = element.getAttribute("data-content");
+
+        // Update the featured section
+        const featuredImg = document.querySelector(".featured img");
+        const featuredTitle = document.querySelector(".featured .card-title");
+        const featuredDate = document.querySelector(".featured p");
+        const featuredContent = document.querySelector(".featured .card-text");
+
+        featuredImg.src = imgSrc;
+        featuredTitle.textContent = title;
+        featuredDate.innerHTML = `<i class="fa-regular fa-calendar-days pe-2"></i> ${date}`;
+        featuredContent.textContent = content;
+      }
+
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true, // Enables infinite looping
+          margin: 10, // Space between items
+          nav: true, // Navigation arrows
+
+          autoplay: true, // Enables autoplay
+          autoplayTimeout: 3000, // Time between slides (in milliseconds)
+          autoplayHoverPause: true, // Pauses autoplay when hovering
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 2,
+            },
+            1000: {
+              items: 4,
+            },
+          },
+        });
+        $(".owl-dot").each(function (index) {
+          $(this).attr("aria-label", `Go to testimonial ${index + 1}`);
+        });
+
+        // Fix accessibility for navigation buttons
+        $(".owl-prev").each(function () {
+          $(this).removeAttr("role").attr("aria-label", "Previous");
+        });
+
+        $(".owl-next").each(function () {
+          $(this).removeAttr("role").attr("aria-label", "Next");
+        });
+      });
+    </script>
+  </body>
+</html>
