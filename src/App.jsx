@@ -1,20 +1,21 @@
 import React from 'react'
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Gallery from './pages/Gallery'
-import Research from './pages/Research'
 import Navbar from './components/Navbar/Navbar'
-import Header from './components/Navbar/Header'
-import Footer from './components/Footer/Footer'
+// import {BrowserRouter,Routes,Route} from 'react-router-dom'
+// import Home from './pages/Home'
+// import About from './pages/About'
+// import Contact from './pages/Contact'
+// import Gallery from './pages/Gallery'
+// import Research from './pages/Research'
+// import Header from './components/Navbar/Header'
+// import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
     <>
+    <Navbar/>
     <div> hii</div>
       {/* <BrowserRouter>  */}
-      {/* <Navbar/> */}
+
       {/* <Header/> */}
         {/* <Routes>
           <Route path='/' element={<Home/>}/>
