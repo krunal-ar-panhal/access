@@ -12,7 +12,8 @@ import Footer from './components/Footer/Footer'
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+    <div> hii</div>
+      {/* <BrowserRouter>
       <Navbar/>
       <Header/>
         <Routes>
@@ -23,7 +24,7 @@ const App = () => {
           <Route path='/research' element={<Research/>}/>
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   )
 }
