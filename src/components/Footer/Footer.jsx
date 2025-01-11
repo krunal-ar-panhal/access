@@ -19,7 +19,7 @@ const Footer = () => {
             </a>
             <a href="https://www.iitm.ac.in/" target="_blank">
               <img
-                src="./src/assets/images/iit madrash  ing.png"
+                src="./images/iit-madrash-ing.png"
                 alt="Sticky Image"
                 className="mt-3"
                 aria-label="IIT Madras logo"

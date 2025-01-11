@@ -52,7 +52,7 @@ const Faq = () => {
               </div>
               <div className="col-md-3">
                 <img
-                  src="./src/assets/images/research-1.png"
+                  src="./images/research-1.png"
                   width="100%"
                   alt="Teacher Training for Inclusive Learning"
                 />
@@ -95,7 +95,7 @@ const Faq = () => {
               </div>
               <div className="col-md-3">
                 <img
-                  src="./src/assets/images/research-2.png"
+                  src="./images/research-2.png"
                   width="100%"
                   alt="Digital Accessibility Systems"
                 />
@@ -138,7 +138,7 @@ const Faq = () => {
               </div>
               <div className="col-md-3">
                 <img
-                  src="./src/assets/images/research-3.png"
+                  src="./images/research-3.png"
                   width="100%"
                   alt="Augmented & Virtual Reality (AR/VR)"
                 />
@@ -178,7 +178,7 @@ const Faq = () => {
               </div>
               <div className="col-md-3">
                 <img
-                  src="./src/assets/images/research-4.png"
+                  src="./images/research-4.png"
                   width="100%"
                   alt="Braille Book Project"
                 />

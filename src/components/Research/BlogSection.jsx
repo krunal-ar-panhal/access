@@ -14,7 +14,7 @@ const BlogSection = () => {
               <article>
                 <div className="post-img">
                   <img
-                    src="./src/assets/images/project-1.jpg"
+                    src="./images/project-1.jpg"
                     alt=""
                     className="img-fluid"
                   />
@@ -60,7 +60,7 @@ const BlogSection = () => {
               <article>
                 <div className="post-img">
                   <img
-                    src="./src/assets/images/Museum Project.jpg"
+                    src="./images/Museum Project.jpg"
                     alt=""
                     className="img-fluid"
                   />
@@ -104,7 +104,7 @@ const BlogSection = () => {
               <article>
                 <div className="post-img">
                   <img
-                    src="./src/assets/images/Braille Book Project.jpg"
+                    src="./images/Braille Book Project.jpg"
                     alt=""
                     className="img-fluid"
                   />
@@ -157,7 +157,7 @@ const BlogSection = () => {
           <h3 className="widget-title">Recent Project</h3>
           <div className="post-item">
             <img
-              src="./src/assets/images/project-1.jpg"
+              src="./images/project-1.jpg"
               alt=""
               className="flex-shrink-0"
             />
@@ -173,7 +173,7 @@ const BlogSection = () => {
           {/* End recent post item*/}
           <div className="post-item">
             <img
-              src="./src/assets/images/Museum Project.jpg"
+              src="./images/Museum Project.jpg"
               alt=""
               className="flex-shrink-0"
             />
@@ -187,7 +187,7 @@ const BlogSection = () => {
           {/* End recent post item*/}
           <div className="post-item">
             <img
-              src="./src/assets/images/Braille Book Project.jpg"
+              src="./images/Braille Book Project.jpg"
               alt=""
               className="flex-shrink-0"
             />

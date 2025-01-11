@@ -12,7 +12,7 @@ const AboutUs = () => {
                 <div className="video-container pt-5">
                   {/* Video Thumbnail */}
                   <img
-                    src="./src/assets/images/about-us-bg-video.jpg"
+                    src="./images/about-us-bg-video.jpg"
                     alt="A preview image representing our focus video"
                     id="video-thumbnail"
                     tabIndex={0}
@@ -78,7 +78,7 @@ const AboutUs = () => {
             <div className="row border rounded g-0 mb-5">
               <div className="col-md-4">
                 <img
-                  src="./src/assets/images/vision.jpg"
+                  src="./images/vision.jpg"
                   className="img-fluid rounded-start"
                   alt="Our Vision"
                 />
@@ -110,7 +110,7 @@ const AboutUs = () => {
               </div>
               <div className="col-md-4 order-1 order-sm-2">
                 <img
-                  src="./src/assets/images/mision.jpg"
+                  src="./images/mision.jpg"
                   className="img-fluid rounded-end"
                   alt="Our Vision"
                 />

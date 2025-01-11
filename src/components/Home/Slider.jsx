@@ -20,7 +20,7 @@ const Slider = () => {
           className="d-flex align-items-center"
         >
           <img
-            src="./src/assets/images/GEF.png"
+            src="./images/GEF.png"
             alt="Logo of Principal Founder 1"
             className="m-auto d-block"
             data-bs-toggle="tooltip"
@@ -49,7 +49,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/TNSTC.jpg"
+                src="./images/TNSTC.jpg"
                 alt="TNSTC Logo"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -64,7 +64,7 @@ const Slider = () => {
               aria-label="Visit Associated Board of the Royal Schools of Music (ABRSM) Website"
             >
               <img
-                src="./src/assets/images/ABRSM.png"
+                src="./images/ABRSM.png"
                 alt="ABRSM Logo"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -79,7 +79,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/Sightsavers India.svg"
+                src="./images/Sightsavers India.svg"
                 alt="Sightsavers Logo"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -94,7 +94,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/Sense International India.png"
+                src="./images/Sense International India.png"
                 alt="Sense International Logo"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -109,7 +109,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/vidhya.jpg"
+                src="./images/vidhya.jpg"
                 alt="Virtual Reality Logo"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -124,7 +124,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/NIOT.jpg"
+                src="./images/NIOT.jpg"
                 alt="NIOT Logo"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -139,7 +139,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/NPTEL.jpg"
+                src="./images/NPTEL.jpg"
                 alt="NPTEL Logo"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -154,7 +154,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/RLF.png"
+                src="./images/RLF.png"
                 alt="RLF Logo"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -171,7 +171,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/TNSTC.jpg"
+                src="./images/TNSTC.jpg"
                 alt="TNSTC Logo Duplicate"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -186,7 +186,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/ABRSM.png"
+                src="./images/ABRSM.png"
                 alt="ABRSM Logo Duplicate"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -201,7 +201,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/Sightsavers India.svg"
+                src="./images/Sightsavers India.svg"
                 alt="Sightsavers Logo Duplicate"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -216,7 +216,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/Sense International India.png"
+                src="./images/Sense International India.png"
                 alt="Sense International Logo Duplicate"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -231,7 +231,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/vidhya.jpg"
+                src="./images/vidhya.jpg"
                 alt="Virtual Reality Logo Duplicate"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -246,7 +246,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/NIOT.jpg"
+                src="./images/NIOT.jpg"
                 alt="NIOT Logo Duplicate"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -261,7 +261,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/NPTEL.jpg"
+                src="./images/NPTEL.jpg"
                 alt="NPTEL Logo Duplicate"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"
@@ -276,7 +276,7 @@ const Slider = () => {
               className="d-flex align-items-center"
             >
               <img
-                src="./src/assets/images/RLF.png"
+                src="./images/RLF.png"
                 alt="RLF Logo Duplicate"
                 className="px-3 img-fluid"
                 data-bs-toggle="tooltip"

@@ -10,7 +10,7 @@ const Team = () => {
     <div className="col-md-3">
       <div className="card border-0 ">
         <img
-          src="./src/assets/images/team member/Prof Hem 2.jpg"
+          src="./images/team member/Prof Hem 2.jpg"
           className="card-img-top"
           alt="Dr. Hemachandran Karah, Co-founder of The ARC"
         />
@@ -54,7 +54,7 @@ const Team = () => {
     <div className="col-md-3">
       <div className="card border-0 ">
         <img
-          src="./src/assets/images/team member/Prof Saji 2.jpg"
+          src="./images/team member/Prof Saji 2.jpg"
           className="card-img-top"
           alt="Dr. Saji K Mathew, Co-founder of The ARC"
         />
@@ -92,7 +92,7 @@ const Team = () => {
           aria-label="Dr. Nilesh J. Vasa Profile"
         >
           <img
-            src="./src/assets/images/team member/Prof Vasa 2.jpg"
+            src="./images/team member/Prof Vasa 2.jpg"
             className="card-img-top"
             alt="Dr. Nilesh J. Vasa, Co-founder of The ARC"
           />
@@ -136,7 +136,7 @@ const Team = () => {
     <div className="col-md-3">
       <div className="card border-0 ">
         <img
-          src="./src/assets/images/team member/Karthika 2.jpg"
+          src="./images/team member/Karthika 2.jpg"
           className="card-img-top"
           alt="Dr. Karthika J, Manager of The ARC"
         />
@@ -150,7 +150,7 @@ const Team = () => {
     <div className="col-md-3">
       <div className="card border-0 ">
         <img
-          src="./src/assets/images/team member/Swikriti.jpg"
+          src="./images/team member/Swikriti.jpg"
           className="card-img-top"
           alt="Swikriti Sanyal, Research Associate at The ARC"
         />
@@ -177,7 +177,7 @@ const Team = () => {
     <div className="col-md-3">
       <div className="card border-0 ">
         <img
-          src="./src/assets/images/team member/Subisha KR 2.jpg"
+          src="./images/team member/Subisha KR 2.jpg"
           className="card-img-top"
           alt="Subisha K R, Research Associate at The ARC"
         />
@@ -204,7 +204,7 @@ const Team = () => {
     <div className="col-md-3">
       <div className="card border-0 ">
         <img
-          src="./src/assets/images/team member/Sadiq 2.jpg"
+          src="./images/team member/Sadiq 2.jpg"
           className="card-img-top"
           alt="Muhammed Sadiq T, Research Associate at The ARC"
         />
@@ -231,7 +231,7 @@ const Team = () => {
     <div className="col-md-3">
       <div className="card border-0 ">
         <img
-          src="./src/assets/images/team member/Yuvaraj.jpg"
+          src="./images/team member/Yuvaraj.jpg"
           className="card-img-top"
           alt="Yuvaraj, Office Staff at The ARC"
         />
@@ -242,7 +242,7 @@ const Team = () => {
       </div>
     </div>
     <img
-      src="./src/assets/images/team member/team-member.png"
+      src="./images/team member/team-member.png"
       className="mt-3 bg-body rounded"
       style={{ boxShadow: "0 1rem 3rem rgba(0, 0, 0, 0.175) !important" }}
       alt="all team member group img"

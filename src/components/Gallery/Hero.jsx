@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <div
   className="breadcrumb-area text-center shadow dark bg-fixed"
-  style={{ backgroundImage: "url(./src/assets/images/banner/banner-bg-5.jpg)" }}
+  style={{ backgroundImage: "url(./images/banner/banner-bg-5.jpg)" }}
 >
   <div className="container">
     <div className="row">

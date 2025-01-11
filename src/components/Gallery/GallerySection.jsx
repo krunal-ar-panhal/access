@@ -15,7 +15,7 @@ const GallerySection = () => {
       <div className="col-md-4">
         <div className="card shadow-sm">
           <img
-            src="./src/assets/images/SightsaversIndia_FieldVisit/IMG-1.jpg"
+            src="./images/SightsaversIndia_FieldVisit/IMG-1.jpg"
             className="card-img-top"
             alt="Sightsavers India Field Visit"
             loading="lazy"
@@ -24,7 +24,7 @@ const GallerySection = () => {
             <h3 className="text-blue">Sightsavers India Field Visit</h3>
             <button type="button" className="arc-btn arc-btn--base">
               <a
-                href="./src/assets/images/SightsaversIndia_FieldVisit/IMG-1.jpg"
+                href="./images/SightsaversIndia_FieldVisit/IMG-1.jpg"
                 className="  gallery-item"
                 data-group="group1"
               >
@@ -35,32 +35,32 @@ const GallerySection = () => {
         </div>
         {/* Hidden images */}
         <a
-          href="./src/assets/images/SightsaversIndia_FieldVisit/IMG-2.jpg"
+          href="./images/SightsaversIndia_FieldVisit/IMG-2.jpg"
           className="gallery-item d-none"
           data-group="group1"
         />
         <a
-          href="./src/assets/images/SightsaversIndia_FieldVisit/IMG-3.jpg"
+          href="./images/SightsaversIndia_FieldVisit/IMG-3.jpg"
           className="gallery-item d-none"
           data-group="group1"
         />
         <a
-          href="./src/assets/images/SightsaversIndia_FieldVisit/IMG-4.jpg"
+          href="./images/SightsaversIndia_FieldVisit/IMG-4.jpg"
           className="gallery-item d-none"
           data-group="group1"
         />
         <a
-          href="./src/assets/images/SightsaversIndia_FieldVisit/IMG-5.jpg"
+          href="./images/SightsaversIndia_FieldVisit/IMG-5.jpg"
           className="gallery-item d-none"
           data-group="group1"
         />
         <a
-          href="./src/assets/images/SightsaversIndia_FieldVisit/IMG-6.jpg"
+          href="./images/SightsaversIndia_FieldVisit/IMG-6.jpg"
           className="gallery-item d-none"
           data-group="group1"
         />
         <a
-          href="./src/assets/images/SightsaversIndia_FieldVisit/IMG-7.jpg"
+          href="./images/SightsaversIndia_FieldVisit/IMG-7.jpg"
           className="gallery-item d-none"
           data-group="group1"
         />
@@ -69,7 +69,7 @@ const GallerySection = () => {
       <div className="col-md-4">
         <div className="card shadow-sm">
           <img
-            src="./src/assets/images/General Meetings at ARC/1.jpg"
+            src="./images/General Meetings at ARC/1.jpg"
             className="card-img-top"
             alt="General Meetings at ARC"
             loading="lazy"
@@ -80,7 +80,7 @@ const GallerySection = () => {
             </h3>
             <button type="button" className="arc-btn arc-btn--base">
               <a
-                href="./src/assets/images/General Meetings at ARC/1.jpg"
+                href="./images/General Meetings at ARC/1.jpg"
                 className="gallery-item"
                 data-group="group2"
               >
@@ -91,67 +91,67 @@ const GallerySection = () => {
         </div>
         {/* Hidden images */}
         <a
-          href="./src/assets/images/General Meetings at ARC/2.jpg"
+          href="./images/General Meetings at ARC/2.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
         <a
-          href="./src/assets/images/General Meetings at ARC/3.jpg"
+          href="./images/General Meetings at ARC/3.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
         <a
-          href="./src/assets/images/General Meetings at ARC/3.jpg"
+          href="./images/General Meetings at ARC/3.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
         <a
-          href="./src/assets/images/General Meetings at ARC/4.jpg"
+          href="./images/General Meetings at ARC/4.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
         <a
-          href="./src/assets/images/General Meetings at ARC/5.jpg"
+          href="./images/General Meetings at ARC/5.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
         <a
-          href="./src/assets/images/General Meetings at ARC/6.jpg"
+          href="./images/General Meetings at ARC/6.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
         <a
-          href="./src/assets/images/General Meetings at ARC/7.jpg"
+          href="./images/General Meetings at ARC/7.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
         <a
-          href="./src/assets/images/General Meetings at ARC/8.jpg"
+          href="./images/General Meetings at ARC/8.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
         <a
-          href="./src/assets/images/General Meetings at ARC/9.jpg"
+          href="./images/General Meetings at ARC/9.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
         <a
-          href="./src/assets/images/General Meetings at ARC/10.jpg"
+          href="./images/General Meetings at ARC/10.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
         <a
-          href="./src/assets/images/General Meetings at ARC/12.jpg"
+          href="./images/General Meetings at ARC/12.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
         <a
-          href="./src/assets/images/General Meetings at ARC/13.jpg"
+          href="./images/General Meetings at ARC/13.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
         <a
-          href="./src/assets/images/General Meetings at ARC/14.jpg"
+          href="./images/General Meetings at ARC/14.jpg"
           className="gallery-item d-none"
           data-group="group2"
         />
@@ -160,7 +160,7 @@ const GallerySection = () => {
       <div className="col-md-4">
         <div className="card shadow-sm">
           <img
-            src="./src/assets/images/Periyar Science and Technology Centre field visit/1.jpg"
+            src="./images/Periyar Science and Technology Centre field visit/1.jpg"
             className="card-img-top"
             alt="Periyar Science and Technology Centre Field Visit"
             loading="lazy"
@@ -169,7 +169,7 @@ const GallerySection = () => {
             <h3 className="text-blue">Periyar Science and Technology Centre</h3>
             <button type="button" className="arc-btn arc-btn--base">
               <a
-                href="./src/assets/images/Periyar Science and Technology Centre field visit/1.jpg"
+                href="./images/Periyar Science and Technology Centre field visit/1.jpg"
                 className="gallery-item"
                 data-group="group3"
               >
@@ -180,72 +180,72 @@ const GallerySection = () => {
         </div>
         {/* Hidden images */}
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/2.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/2.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/3.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/3.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/4.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/4.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/5.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/5.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/6.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/6.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/7.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/7.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/8.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/8.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/9.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/9.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/10.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/10.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/11.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/11.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/12.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/12.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/13.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/13.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/14.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/14.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
         <a
-          href="./src/assets/images/Periyar Science and Technology Centre field visit/15.jpg"
+          href="./images/Periyar Science and Technology Centre field visit/15.jpg"
           className="gallery-item d-none"
           data-group="group3"
         />
@@ -254,7 +254,7 @@ const GallerySection = () => {
       <div className="col-md-4">
         <div className="card shadow-sm">
           <img
-            src="./src/assets/images/understanding ocean - field visit/1.jpg"
+            src="./images/understanding ocean - field visit/1.jpg"
             className="card-img-top"
             alt="Understanding Ocean Field Visit"
             loading="lazy"
@@ -263,7 +263,7 @@ const GallerySection = () => {
             <h3 className="text-blue">Understanding Ocean Field Visit</h3>
             <button type="button" className="arc-btn arc-btn--base">
               <a
-                href="./src/assets/images/understanding ocean - field visit/1.jpg"
+                href="./images/understanding ocean - field visit/1.jpg"
                 className="gallery-item"
                 data-group="group4"
               >
@@ -274,32 +274,32 @@ const GallerySection = () => {
         </div>
         {/* Hidden images */}
         <a
-          href="./src/assets/images/understanding ocean - field visit/2.jpg"
+          href="./images/understanding ocean - field visit/2.jpg"
           className="gallery-item d-none"
           data-group="group4"
         />
         <a
-          href="./src/assets/images/understanding ocean - field visit/3.jpg"
+          href="./images/understanding ocean - field visit/3.jpg"
           className="gallery-item d-none"
           data-group="group4"
         />
         <a
-          href="./src/assets/images/understanding ocean - field visit/4.jpg"
+          href="./images/understanding ocean - field visit/4.jpg"
           className="gallery-item d-none"
           data-group="group4"
         />
         <a
-          href="./src/assets/images/understanding ocean - field visit/5.jpg"
+          href="./images/understanding ocean - field visit/5.jpg"
           className="gallery-item d-none"
           data-group="group4"
         />
         <a
-          href="./src/assets/images/understanding ocean - field visit/6.jpg"
+          href="./images/understanding ocean - field visit/6.jpg"
           className="gallery-item d-none"
           data-group="group4"
         />
         <a
-          href="./src/assets/images/understanding ocean - field visit/7.jpg"
+          href="./images/understanding ocean - field visit/7.jpg"
           className="gallery-item d-none"
           data-group="group4"
         />
@@ -308,7 +308,7 @@ const GallerySection = () => {
       <div className="col-md-4">
         <div className="card shadow-sm">
           <img
-            src="./src/assets/images/Museum photos/1.png"
+            src="./images/Museum photos/1.png"
             className="card-img-top"
             alt="Museum Photos"
             loading="lazy"
@@ -320,7 +320,7 @@ const GallerySection = () => {
             </h3>
             <button type="button" className="arc-btn arc-btn--base">
               <a
-                href="./src/assets/images/Museum photos/1.png"
+                href="./images/Museum photos/1.png"
                 className="gallery-item"
                 data-group="group5"
               >
@@ -331,67 +331,67 @@ const GallerySection = () => {
         </div>
         {/* Hidden images */}
         <a
-          href="./src/assets/images/Museum photos/2.png"
+          href="./images/Museum photos/2.png"
           className="gallery-item d-none"
           data-group="group5"
         />
         <a
-          href="./src/assets/images/Museum photos/3.png"
+          href="./images/Museum photos/3.png"
           className="gallery-item d-none"
           data-group="group5"
         />
         <a
-          href="./src/assets/images/Museum photos/4.png"
+          href="./images/Museum photos/4.png"
           className="gallery-item d-none"
           data-group="group5"
         />
         <a
-          href="./src/assets/images/Museum photos/5.png"
+          href="./images/Museum photos/5.png"
           className="gallery-item d-none"
           data-group="group5"
         />
         <a
-          href="./src/assets/images/Museum photos/6.png"
+          href="./images/Museum photos/6.png"
           className="gallery-item d-none"
           data-group="group5"
         />
         <a
-          href="./src/assets/images/Museum photos/7.png"
+          href="./images/Museum photos/7.png"
           className="gallery-item d-none"
           data-group="group5"
         />
         <a
-          href="./src/assets/images/Museum photos/8.png"
+          href="./images/Museum photos/8.png"
           className="gallery-item d-none"
           data-group="group5"
         />
         <a
-          href="./src/assets/images/Museum photos/9.png"
+          href="./images/Museum photos/9.png"
           className="gallery-item d-none"
           data-group="group5"
         />
         <a
-          href="./src/assets/images/Museum photos/10.png"
+          href="./images/Museum photos/10.png"
           className="gallery-item d-none"
           data-group="group5"
         />
         <a
-          href="./src/assets/images/Museum photos/11.png"
+          href="./images/Museum photos/11.png"
           className="gallery-item d-none"
           data-group="group5"
         />
         <a
-          href="./src/assets/images/Museum photos/12.png"
+          href="./images/Museum photos/12.png"
           className="gallery-item d-none"
           data-group="group5"
         />
         <a
-          href="./src/assets/images/Museum photos/13.png"
+          href="./images/Museum photos/13.png"
           className="gallery-item d-none"
           data-group="group5"
         />
         <a
-          href="./src/assets/images/Museum photos/14.png"
+          href="./images/Museum photos/14.png"
           className="gallery-item d-none"
           data-group="group5"
         />
@@ -409,7 +409,7 @@ const GallerySection = () => {
         aria-label="Watch Video 1"
       >
         <img
-          src="./src/assets/images/contact-banner.jpg"
+          src="./images/contact-banner.jpg"
           alt="Video Album - Video 1"
           class="img-fluid"
 loading="lazy"

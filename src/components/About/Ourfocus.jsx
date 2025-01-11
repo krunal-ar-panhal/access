@@ -16,7 +16,7 @@ const Ourfocus = () => {
         <div className="row py-4">
           <div className="col-md-3 justify-content-center align-items-center d-flex">
             <img
-              src="./src/assets/images/course.svg"
+              src="./images/course.svg"
               className="card-img-tops"
               alt="Teacher Training for Inclusive Learning"
             />
@@ -62,7 +62,7 @@ const Ourfocus = () => {
           </div>
           <div className="col-md-3 order-1 order-sm-2 justify-content-center align-items-center d-flex">
             <img
-              src="./src/assets/images/toilet.svg"
+              src="./images/toilet.svg"
               className="card-img-tops"
               alt="Digital Information Systems for Accessibility"
             />
@@ -77,7 +77,7 @@ const Ourfocus = () => {
         <div className="row py-4">
           <div className="col-md-3 justify-content-center align-items-center d-flex">
             <img
-              src="./src/assets/images/virtual-reality.svg"
+              src="./images/virtual-reality.svg"
               className="card-img-tops"
               alt="Augmented and Virtual Reality for Knowledge Access"
             />
