@@ -14,7 +14,7 @@ const App = () => {
     <>
     <div> hii</div>
       {/* <BrowserRouter>  */}
-      <Navbar/>
+      {/* <Navbar/> */}
       <Header/>
         {/* <Routes>
           <Route path='/' element={<Home/>}/>
