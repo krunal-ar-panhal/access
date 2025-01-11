@@ -13,18 +13,18 @@ const App = () => {
   return (
     <>
     <div> hii</div>
-      {/* <BrowserRouter>
+      {/* <BrowserRouter>  */}
       <Navbar/>
       <Header/>
-        <Routes>
+        {/* <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/gallery' element={<Gallery/>}/>
           <Route path='/research' element={<Research/>}/>
-        </Routes>
+        </Routes> */}
         <Footer/>
-      </BrowserRouter> */}
+      {/* </BrowserRouter>  */}
     </>
   )
 }
