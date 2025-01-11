@@ -15,7 +15,7 @@ const App = () => {
     <div> hii</div>
       {/* <BrowserRouter>  */}
       {/* <Navbar/> */}
-      <Header/>
+      {/* <Header/> */}
         {/* <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
@@ -23,7 +23,7 @@ const App = () => {
           <Route path='/gallery' element={<Gallery/>}/>
           <Route path='/research' element={<Research/>}/>
         </Routes> */}
-        <Footer/>
+        {/* <Footer/> */}
       {/* </BrowserRouter>  */}
     </>
   )
