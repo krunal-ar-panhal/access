@@ -1,4 +1,5 @@
 import React from 'react'
+import news from '.././../assets/images/news.png'
 
 const Hero = () => {
   
@@ -38,7 +39,7 @@ const Hero = () => {
         </p>
         <a href="https://www.iitm.ac.in/" target="_blank">
           <img
-            src="images/news.png"
+            src={news}
             alt="Sticky Image"
             className="mt-3"
             aria-label="IIT Madras logo"
