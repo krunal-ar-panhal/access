@@ -14,32 +14,32 @@
     <meta name="author" content="Your Name or Organization Name" />
     <meta name="robots" content="index, follow" />
 
-    <title>ARC</title>
+    <title>Accessibility Research Centre</title>
 
-    <!-- Favicon --> 
-    <!-- <link rel="icon" type="image/png" href="./src/assets/images/fevi-icon.png" /> -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./src/assets/images/fevi-icon.png" />
 
     <!-- Stylesheets -->
-    <!-- <link href="./src/assets/css/bootstrap.min.css" rel="stylesheet" /> -->
-    <!-- <link
+    <link href="./src/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    /> -->
+    />
     <!-- Magnific Popup CSS -->
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    /> -->
+    />
 
     <!-- FullCalendar CSS -->
-    <!-- <link
+    <link
       href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.2.0/main.min.css"
       rel="stylesheet"
     />
@@ -47,26 +47,26 @@
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@4.3.0/main.min.css"
-    /> -->
+    />
 
     <link href="./src/assets/css/app.css" rel="stylesheet" />
   </head>
   <body>
-     <div id="root"></div> 
-     <script type="module" src="./src/main.jsx"></script> 
- <!-- <script src="./src/assets/js/bootstrap.bundle.min.js"></script> -->
+    <div id="root"></div>
+    <script type="module" src="./src/main.jsx"></script>
+    <script src="./src/assets/js/bootstrap.bundle.min.js"></script>
     <!-- <script src="./src/assets/js/app.js"></script> -->
 
-    <!-- <script src="./src/assets/js/calender.js"></script> -->
+    <script src="./src/assets/js/calender.js"></script>
     <!-- jQuery (required for Magnific Popup) -->
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Magnific Popup JS -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <!-- FullCalendar JS -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.2.0/main.min.js"></script> -->
-    <!-- <script
+    <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.2.0/main.min.js"></script>
+    <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@4.2.0/main.js"
     ></script>
@@ -82,12 +82,12 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuidv4.min.js"
     ></script>
-    <script> -->
-      <!-- // Initialize Magnific Popup -->
-      <!-- $(document).ready(function () { -->
-        <!-- // Initialize magnific popup on the element with class '.video-popup' -->
-        <!-- $(".video-popup").magnificPopup({ -->
-          <!-- type: "iframe", // Set the type to iframe for embedding video
+    <script>
+      // Initialize Magnific Popup
+      $(document).ready(function () {
+        // Initialize magnific popup on the element with class '.video-popup'
+        $(".video-popup").magnificPopup({
+          type: "iframe", // Set the type to iframe for embedding video
           iframe: {
             patterns: {
               youtube: {
@@ -98,9 +98,9 @@
             },
           },
         });
-      }); -->
+      });
 
-      <!-- $(document).ready(function () {
+      $(document).ready(function () {
         // Initialize OwlCarousel
         $(".testimonials").owlCarousel({
           loop: false,
@@ -112,9 +112,9 @@
             600: { items: 1 },
             1000: { items: 2 },
           },
-        }); -->
+        });
 
-        <!-- // Add accessible names to the dots
+        // Add accessible names to the dots
         $(".owl-dot").each(function (index) {
           $(this).attr("aria-label", `Go to testimonial ${index + 1}`);
         });
@@ -181,7 +181,7 @@
         $(".owl-next").each(function () {
           $(this).removeAttr("role").attr("aria-label", "Next");
         });
-      }); -->
-    <!-- </script> -->
+      });
+    </script>
   </body>
 </html>
