@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="widget company-intro-widget">
             <a href="index.html" className="site-logo">
               {/* <img
-                src="./assets/images/main-logo -bg.png"
+                src="./src/assets/images/main-logo -bg.png"
                 alt="logo"/> */}
               <p className="text-blue">
                 <b>The Accessibility Research Centre</b>
@@ -19,7 +19,7 @@ const Footer = () => {
             </a>
             <a href="https://www.iitm.ac.in/" target="_blank">
               <img
-                src="./assets/images/iit madrash  ing.png"
+                src="./src/assets/images/iit madrash  ing.png"
                 alt="Sticky Image"
                 className="mt-3"
                 aria-label="IIT Madras logo"

@@ -14,7 +14,7 @@ const Header = () => {
         <div className="container">
           <a className="navbar-brand" href="index.html">
             <img
-              src="./assets/images/logo.png"
+              src="./src/assets/images/logo.png"
               alt="Circular logo with a light blue infinity symbol and three abstract human figures above it on a dark blue background. Below the symbol are three horizontal lines suggesting waves. The background shows a blurred word 'HIMALAYA.'"
               aria-label="ARC logo"
             />

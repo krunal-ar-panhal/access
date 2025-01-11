@@ -7,7 +7,7 @@ const Hero = () => {
       <section className="outter hero-video">
   <section className="video-container">
     <video
-      src="./assets/images/banner/hero_bg_video.mp4"
+      src="./src/assets/images/banner/hero_bg_video.mp4"
       autoPlay=""
       loop=""
       playsInline=""
@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="callout">
       <div className="container text-center">
         <img
-          src="./assets/images/main-logo.png"
+          src="./src/assets/images/main-logo.png"
           alt="Circular logo with a light blue infinity symbol and three abstract human figures above it on a dark blue background. Below the symbol are three horizontal lines suggesting waves. The background shows a blurred word 'HIMALAYA.'"
           className="hero-logo"
         />
@@ -38,7 +38,7 @@ const Hero = () => {
         </p>
         <a href="https://www.iitm.ac.in/" target="_blank">
           <img
-            src="./assets/images/iit madrash  ing.png"
+            src="./src/assets/images/iit madrash  ing.png"
             alt="Sticky Image"
             className="mt-3"
             aria-label="IIT Madras logo"

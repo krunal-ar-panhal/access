@@ -42,7 +42,7 @@ const Ourfocus = () => {
         <div className="video-container">
           {/* Video Thumbnail */}
           <img
-            src="./assets/images/IITMadras.jpg"
+            src="./src/assets/images/IITMadras.jpg"
             alt="A preview image representing our focus video"
             id="video-thumbnail"
             tabIndex={0}

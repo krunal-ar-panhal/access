@@ -17,7 +17,7 @@ const LatestBlogs = () => {
         >
           <div className="blog-card d-flex flex-column">
             <img
-              src="./assets/images/blog-post-1.png"
+              src="./src/assets/images/blog-post-1.png"
               alt="New changes in IIT admissions"
               className="img-fluid"
             />
@@ -43,7 +43,7 @@ const LatestBlogs = () => {
         >
           <div className="blog-card d-flex flex-column">
             <img
-              src="./assets/images/blog-post-1.png"
+              src="./src/assets/images/blog-post-1.png"
               alt="New changes in IIT admissions"
               className="img-fluid"
             />
@@ -70,7 +70,7 @@ const LatestBlogs = () => {
         >
           <div className="blog-card d-flex flex-column">
             <img
-              src="./assets/images/blog-post-2.png"
+              src="./src/assets/images/blog-post-2.png"
               alt="Admission reforms in 2025"
               className="img-fluid"
             />
