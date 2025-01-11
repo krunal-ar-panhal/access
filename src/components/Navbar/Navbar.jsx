@@ -114,7 +114,7 @@ const Navbar = () => {
                 aria-hidden="true"
               />
             </button>
-            <button
+            {/* <button
               type="button"
               className="btn btn-sm btn-outline-light"
               id="toggle-screenreader"
@@ -126,8 +126,8 @@ const Navbar = () => {
               ) : (
                 <i className="fa-solid fa-volume-xmark"></i>
               )}
-            </button>
-            <button
+            </button> */}
+            {/* <button
               type="button"
               className="btn btn-sm btn-outline-light"
               id="mode-icon"
@@ -139,7 +139,7 @@ const Navbar = () => {
                   darkModeEnabled ? "rotate" : ""
                 } fa-moon`}
               ></i>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
