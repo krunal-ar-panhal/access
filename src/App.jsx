@@ -14,6 +14,8 @@ const App = () => {
     <>
     <Navbar/>
     <div> hii...hgfhgfh</div>
+    <div> hii...hgfhgfh</div>
+    <div> hii...hgfhgfh</div>
       {/* <BrowserRouter>  */}
 
       {/* <Header/> */}
